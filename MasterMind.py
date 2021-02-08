@@ -1,8 +1,9 @@
 import random
-
+""" Ik zal mijn feedback ook met aanhalingstekens opschrijven. Neem het allemaal met wat korreltjes zout aangezien ik een slechte programmeur ben. Het kan dus zijn dat wat ik 
+zeg nergens op slaat."""
 def options():
     allOptions = []
-    for a in range(1,7):
+    for a in range(1,7):                        
         for b in range(1,7):
             for c in range(1,7):
                 for d in range(1,7):
@@ -144,3 +145,7 @@ while True:
 #BRONNEN----------------------------------------------------------------------------
 #http://scholar.google.nl/scholar_url?url=https://lirias.kuleuven.be/retrieve/36247&hl=nl&sa=X&scisig=AAGBfm282whxVVZS4jwNytbsoK8ZI7bRUA&nossl=1&oi=scholarr
 #-----------------------------------------------------------------------------------
+"""Om eerlijk te zijn is er weinig waar ik feedback op kan geven gezien de efficiëntie en werking van de code.
+Het enige wat je misschien zou kunnen overwegen is om een beschrijving van je functies boven de functies te zetten en per regel als dat nodig is.
+Dit zijn echter hele kleine dingen die verre van nodig zijn. Je variabelenamen zijn beschrijvend en de functienamen ook.
+Je zou misschien nog een try > except kunnen doen voor wanneer een gebruiker per ongeluk een te lange of te korte code invoert als toevoeging maar meer niet."""
